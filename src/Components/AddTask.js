@@ -1,6 +1,6 @@
 const { useState } = require("react")
 
-const AddTask = (addTaskToList) => {
+const AddTask = ({addTaskToList}) => {
     const [taskName, setTaskName] = useState("");
     return <div>
         <input name="taskName"

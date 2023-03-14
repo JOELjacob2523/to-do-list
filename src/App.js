@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import AddTask from './Components/AddTask';
-import Task from './Components/Task';
+import Tasks from './Components/Tasks';
 
 function App() {
   const [taskList, setTaskList] = useState([]);
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <AddTask addTaskToList={addTaskToList} />
-      <Task taskList={taskList} />
+      <Tasks taskList={taskList} />
     </div>
   );
 }
