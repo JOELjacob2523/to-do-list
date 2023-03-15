@@ -1,5 +1,5 @@
 const Task = ({task}) => {
-    return <div>
+    return <div id="taskInfo">
         <p>{task.name}</p>
     </div>
 }

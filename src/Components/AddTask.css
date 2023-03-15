@@ -1,0 +1,22 @@
+button {
+    border-color: aquamarine;
+    color: wheat;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#taskName {
+    width: 600px;
+    height: 40px;
+}
+
+#checkbox {
+    color: red;
+}
