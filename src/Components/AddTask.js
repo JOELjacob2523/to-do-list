@@ -1,4 +1,6 @@
+import React from "react";
 const { useState } = require("react");
+
 
 const AddTask = ({ addTaskToList }) => {
     const [taskName, setTaskName] = useState("");
@@ -8,7 +10,7 @@ const AddTask = ({ addTaskToList }) => {
                 value={taskName} placeholder="Title..."
                 onChange={({ target }) => setTaskName(target.value)} />
 
-            <button type="button" onClick={() => {
+            <button id="addbtn" type="button" onClick={() => {
                 addTaskToList({ name: taskName })
                 setTaskName("");
             }}>Add Title</button>

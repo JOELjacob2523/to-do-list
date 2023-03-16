@@ -1,6 +1,10 @@
+import React from "react";
+
 const Task = ({task}) => {
-    return <div id="taskInfo">
-        <p>{task.name}</p>
+const [style, setStyle] = React.useState({});
+    return <div id="taskInfo" style={style}>
+        <p>{task.name} </p>
+        <button id="donebtn" type="button" onClick={() => setStyle({ textDecoration: 'line-through' })}>Mark As Done</button>
     </div>
 }
 

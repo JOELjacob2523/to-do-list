@@ -3,7 +3,7 @@ import { useState } from 'react';
 import AddTask from './Components/AddTask';
 import Tasks from './Components/Tasks';
 import './Components/AddTask.css';
-import './Components/Task.css'
+import './Components/Task.css';
 
 function App() {
   const [taskList, setTaskList] = useState([]);

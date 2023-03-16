@@ -1,4 +1,4 @@
-button {
+#addbtn {
     border-color: aquamarine;
     color: wheat;
     background-color: green;
@@ -15,8 +15,4 @@ button {
 #taskName {
     width: 600px;
     height: 40px;
-}
-
-#checkbox {
-    color: red;
 }
