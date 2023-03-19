@@ -1,10 +1,8 @@
 #taskInfo {
-    cursor: pointer;
     background: #b5d5ec;
     font-size: 30px;
-    transition: 0.2s;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 600px;
+    margin-right: 600px;
     height: 50px;
 }
 
@@ -13,10 +11,15 @@
   }
 
   #donebtn{
+    float: left;
+    border-radius: 10px;
+    margin-left: 600px;
+    font-weight: bold;
     cursor: pointer;
     border-color: blue;
-    color: cyan;
-    background-color: cadetblue;
+    color: rgb(59, 78, 222);
+    background-color: rgb(195, 179, 232);
+    height: 25px;
   }
 
   
