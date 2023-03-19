@@ -1,13 +1,14 @@
 #taskInfo {
-    background: #b5d5ec;
-    font-size: 30px;
     margin-left: 600px;
     margin-right: 600px;
-    height: 50px;
+    height: 40px;
+    background-color: #647aa678;
+    font-family: Adelon;
+    font-size: 20PX;
 }
 
 #taskInfo:nth-child(odd) {
-    background: #96a4ea;
+    background: #7ea4ef78;
   }
 
   #donebtn{
